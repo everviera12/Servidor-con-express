@@ -21,6 +21,7 @@ const express = require('express');
 const server = express();
 server.get('/', (req, res) => {
   res.send('<h1> <strong> HOLA CON EXPRESS desde mi cel</strong> </h1>')
+  res.send('<h1> <strong> ESTE ES UN MENSAJE NUEVO DESDE GIT</strong> </h1>')
 })
 
 server.listen(5446, "192.168.100.38", () => {
